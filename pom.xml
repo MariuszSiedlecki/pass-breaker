@@ -4,14 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com</groupId>
-    <artifactId>pass-braker</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <groupId>pl.mario.projects</groupId>
+    <artifactId>pass-breaker</artifactId>
+    <version>3.0.0</version>
 <dependencies>
     <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-lang3</artifactId>
-        <version>3.8.1</version>
+        <version>LATEST</version>
     </dependency>
 </dependencies>
     <properties>
@@ -20,16 +20,7 @@
     </properties>
 
     <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.0</version>
-                <configuration>
-                    <release>8</release>
-                </configuration>
-            </plugin>
-        </plugins>
+
     </build>
 
 </project>
